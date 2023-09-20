@@ -1,0 +1,370 @@
+{% extends 'social/layout.html' %}
+{% block content%}
+{% load static%}
+<!DOCTYPE html>
+<html lang="en">
+
+<body onload="mostrar1()">
+
+  <div class="mundito">
+    <div class="mapa">
+      <div class="aparecer1">
+        <img src="{% static 'img/icons/Mineria.png' %}" class="img11">
+      </div>
+
+      <div class="aparecer3">
+        <img src="{% static 'img/icons/Estadistica.png' %}" class="img33">
+      </div>
+
+      <div class="aparecer4">
+        <img src="{% static 'img/icons/Engranajes.png' %}" class="img44">
+      </div>
+
+      <div class="aparecer2">
+        <img src="{% static 'img/icons/Perfil.png' %}" class="img22">
+      </div>
+      <img src="{% static 'img/Poligonos.png' %}" class="poligono">
+    </div>
+
+  </div>
+
+  <div class="container" style="background-color:white;">
+
+    <div class="cabeza">
+      <h1 class="cabe">Incrementa la eficiencia de tu negocio</h1>
+      <p> Estudiamos cada proceso empresarial para ofrecer soluciones eficaces que los impulsen a alcanzar sus
+        objetivos.</p>
+    </div>
+
+    <!-- cards -->
+    <div class="contenidoFlip">
+      <div class="flip-containerA">
+        <div class="cardABC">
+          <div class="frente">
+            <img src=" {% static 'img/icons/consulta.png' %}" class="imgmod">
+            <h3>Consultoria Tecnologica</h3>
+          </div>
+          <div class="dorso">
+            <div class="line"></div>
+            <p>Analizamos Las Capacidades Productivas De Tu Empresa Y Descubrimos Áreas De Oportunidad.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="flip-containerA">
+        <div class="cardABC">
+          <div class="frente">
+            <img src=" {% static 'img/icons/tecnologia.png' %}" class="imgmod">
+            <h3>Integracion De Soluciones Tecnologicas</h3>
+          </div>
+          <div class="dorso">
+            <div class="line"></div>
+            <p>Creamos Soluciones Que Faciliten La Toma De Decisiones Frente A Tu Mercado.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="flip-containerA">
+        <div class="cardABC">
+          <div class="frente">
+            <img src=" {% static 'img/icons/estadisticas.png' %}" class="imgmod">
+            <h3>Monitoreo Web De Procesos</h3>
+          </div>
+          <div class="dorso">
+            <div class="line"></div>
+            <p>Monitorea Tus Procesos Y Almacena Información Con Datos En La Nube En Tiempo Real.</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Fin cards -->
+
+
+    <div class="general">
+      <h1 class="gen1"> Lo que toda empresa necesita alcanzar </h1>
+      <p class="gen2"> Analizamos las capacidades productivas de tu empresa para brindar soluciones tecnológicas que
+        optimicen cada proceso y faciliten la toma de decisiones frente a tu mercado.</p>
+    </div>
+
+    <div class="circulado">
+
+      <!-- contenedor del circulo -->
+      <div class="contenedorC">
+        <img src="{% static 'img/icons/Poligonos.png' %}" class="circuloimg" alt="">
+        <!-- <div class="circulo"></div> -->
+      </div>
+
+      <!-- tabla de contenidos -->
+      <table class="elementor">
+        <tr>
+          <td><img src="{% static 'img/icons/cerebro.png' %}" class="img">
+          </td>
+          <td class="necesidad1">Decisiones en tiempo real</td>
+        </tr>
+        <tr>
+          <td><img src="{% static 'img/icons/lupa.png' %}" class="img"></td>
+          <td class="necesidad1">Trazabilidad operativa</td>
+        </tr>
+        <tr>
+          <td><img src="{% static 'img/icons/learning data.png' %}" class="img"></td>
+          <td class="necesidad1">Learning data</td>
+        </tr>
+        <tr>
+          <td><img src="{% static 'img/icons/escalabilidad.png' %}" class="img"></td>
+          <td class="necesidad1">Escalabilidad</td>
+        </tr>
+        <tr>
+          <td><img src="{% static 'img/icons/procesos.png' %}" class="img"></td>
+          <td class="necesidad1">Inteligencia en procesos</td>
+        </tr>
+        <tr>
+          <td><img src="{% static 'img/icons/recursos.png' %}" class="img"></td>
+          <td class="necesidad1">Optimización de recursos</td>
+        </tr>
+      </table>
+
+    </div>
+
+    
+
+    <!-- Fin CONTENEDOR  -->
+  </div>
+
+
+
+  <!-- carusel de colaboraciones-->
+  <div class="carou">
+    <h1 class="carou1"> Hemos colaborado con</h1>
+    <div class="marquee-horizontal">
+      <div class="marquee-horizontal-css w-embed">
+        <style>
+          .track-horizontal {
+            position: absolute;
+            white-space: nowrap;
+            will-change: transform;
+            animation: marquee-horizontal 40s linear infinite;
+          }
+
+          @keyframes marquee-horizontal {
+            from {
+              transform: translateX(0);
+            }
+
+            to {
+              transform: translateX(-50%);
+            }
+          }
+        </style>
+      </div>
+      <!-- /../fondo.jpg -->
+
+      <div class="track-horizontal">
+       
+        <div class="icon-container-alt"><img src="{% static 'img/colaboradores/Tescalogo.png' %}" alt="" class="icon" />
+        </div>
+
+        <div class="icon-container-alt"><img src="{% static 'img/colaboradores/ignis.svg' %}" alt="" class="icon"/>
+        </div>
+
+        <div class="icon-container-alt"><img src="{% static 'img/colaboradores/Cristoballogo.png' %}" alt=""
+            class="icon" /></div>
+
+        <div class="icon-container-alt"><img src="{% static 'img/colaboradores/Ramar.png' %}" alt="" class="icon" />
+        </div>
+
+        <div class="icon-container-alt"><img src="{% static 'img/colaboradores/Modelologo.png' %}" alt=""
+            class="iconM" /></div>
+
+        <div class="icon-container-alt"><img src="{% static 'img/colaboradores/Acclogo.png' %}" alt="" class="icon" />
+        </div>
+
+        <div class="icon-container-alt"><img src="{% static 'img/colaboradores/Mercadolibrelogo.png' %}" alt="" class="icon"/>
+        </div>
+      </div>
+
+    </div>
+  </div>
+  <!-- fin carusel de colaboraciones-->
+
+
+
+
+  <div class="container" style="background-color:  white;">
+
+
+    <!-- cards -->
+    <div class="containerCards">
+      <div class="card2">
+        <figure>
+          <img src=" {% static 'img/icons/pensamiento.png' %}">
+        </figure>
+        <div class="contenido">
+          <p>Nuestros servicios te ofrecen tanto el conocimiento como la asistencia necesaria para ayudarte a tomar el
+            control de tu negocio.</p>
+        </div>
+      </div>
+
+      <div class="card2">
+        <figure>
+          <img src=" {% static 'img/icons/comunicacion.png' %}">
+        </figure>
+        <div class="contenido">
+          <p> Puedes confiar en nosotros para obtener ayuda rápida. Nuestro equipo de soporte brindará lo necesario por
+            si necesitas complementar tus recursos o conocimientos con nuestro servicio.</p>
+        </div>
+      </div>
+
+      <div class="card2">
+        <figure>
+          <img src=" {% static 'img/icons/companero.png' %}">
+        </figure>
+        <div class="contenido">
+          <p> Digimundo Technologies te acompañará durante todo el camino con nuestras soluciones de tecnologos expertos
+            más allá de la implementación y desarrollo de software. </p>
+        </div>
+      </div>
+    </div>
+    <!-- Fin cards -->
+
+    <!-- Formulario-->
+    <!-- <section class="form-register"> -->
+    <form class="form-register">{% csrf_token %}
+
+      <div class="info">
+        <h1 class="titt"> Contactanos</h1>
+        <p class="tecx"> ¿Cómo podemos ayudarte? sea para asesorarte en las necesidades de tu negocio o para conocer más
+          en detalle algunas de nuestras soluciones.</p>
+      </div>
+
+      <div class="elementos">
+        <!-- campos a llenar -->
+        <div class="elementosForm">
+          <p>
+            <label class="etiquetaForm">Nombre*</label>
+            <input class="controllers" type="text" name="nombre" id="nombreField" placeholder="Ingrese su nombre"
+              onkeypress="return ch(event)" required>
+          </p>
+
+          <p>
+            <label class="etiquetaForm">Apellidos* </label>
+            <input class="controllers" type="text" name="apellido" id="apellidoField" placeholder="Ingrese su apellido"
+              onkeypress="return ch(event)" required>
+          </p>
+
+          <p>
+            <label class="etiquetaForm">Correo* </label>
+            <input class="controllers" type="email" name="correo" id="correoField" placeholder="Ingrese su correo"
+              required>
+          </p>
+
+          <p>
+            <label class="etiquetaForm">Telefono* </label>
+            <input class="controllers" type="tel" name="telefono" id="telefonoField" placeholder="Ingrese su telefono"
+              onkeypress="return numb(event)" required>
+          </p>
+
+          <p>
+            <label class="etiquetaForm">Empresa* </label>
+            <input class="controllers" type="text" name="empresa" id="empresaField"
+              placeholder="Ingrese el nombre de empresa" onkeypress="return ch(event)" required>
+          </p>
+
+          <p>
+            <label class="etiquetaForm">Cargo* </label>
+            <input class="controllers" type="text" name="cargo" id="cargoField" placeholder="Ingrese su cargo"
+              onkeypress="return ch(event)" required>
+          </p>
+
+        </div>
+        <!-- fin campos a llenar -->
+
+        <h4> Comentarios* </h4>
+        <textarea class="controllers" placeholder="Deje su comentario" id="comentariosField"
+          onkeypress="return check(event)" required></textarea>
+
+        <!-- <input class="buttons" type="submit" value="Contactanos"> -->
+        <button class="buttons" type="submit" onclick="datos()" style="color: white;"> Enviar </button>
+
+      </div>
+      <!-- Fin Formulario-->
+    </form>
+    <!-- </section> -->
+    <!-- Fin contenedor -->
+  </div>
+
+</body>
+<script src="{% static 'scripts/jquery.js' %}"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+
+<script>
+
+  function get_cookie(name) {
+    let cookie_value = null;
+    if (document.cookie && document.cookie !== '') {
+      let cookies = document.cookie.split(';');
+      for (let i = 0; i < cookies.length; i++) {
+        let cookie = jQuery.trim(cookies[i]);
+        if (cookie.substring(0, name.length + 1) === (name + '=')) {
+          cookie_value = decodeURIComponent(cookie.substring(name.length + 1));
+          break;
+        }
+      }
+    }
+    return cookie_value;
+  }
+
+  function datos() {
+
+    if (document.getElementById('comentariosField').value == "") {
+      console.log("te hace falta llenar los campos")
+
+      Swal.fire(
+        'Campos incompletos',
+        '¿Te olvidaste de llenar alguno?',
+        'question'
+      )
+
+    } else {
+
+
+      $.ajax({
+        url: "{% url 'index' %}",
+        type: "POST",
+        data: {
+
+          'nombre': $('#nombreField').val(),
+          'apellidos': $('#apellidoField').val(),
+          'correo': $('#correoField').val(),
+          'telefono': $('#telefonoField').val(),
+          'empresa': $('#empresaField').val(),
+          'cargo': $('#cargoField').val(),
+          'comentarios': $('#comentariosField').val(),
+          csrfmiddlewaretoken: $('input[name=csrfmiddlewaretoken]').val(),
+
+        },
+        success: function (data) {
+
+          Swal.fire({
+            position: 'center',
+            icon: 'success',
+            title: 'Tu informacion ha sido recibida',
+            showConfirmButton: false,
+            timer: 1500
+          })
+
+          console.log(data)
+          console.log("Success");
+        }
+      });
+    }
+
+
+  }
+
+</script>
+
+</html>
+{% endblock %}

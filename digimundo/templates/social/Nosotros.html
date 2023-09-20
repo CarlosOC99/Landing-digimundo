@@ -1,0 +1,363 @@
+{% extends 'social/layout.html' %}
+{% block content%}
+{% load static%}
+<!DOCTYPE html>
+<html lang="en">
+<script src="https://kit.fontawesome.com/2aa4b284c9.js" crossorigin="anonymous"></script>
+
+<body onload="mostrar3()">
+
+  <div class="mundito">
+    <div class="mapa">
+      <div class="aparecer1">
+        <img src="{% static 'img/icons/Mineria.png' %}" class="img11">
+      </div>
+
+      <div class="aparecer3">
+        <img src="{% static 'img/icons/Estadistica.png' %}" class="img33">
+      </div>
+
+      <div class="aparecer4">
+        <img src="{% static 'img/icons/Engranajes.png' %}" class="img44">
+      </div>
+
+      <div class="aparecer2">
+        <img src="{% static 'img/icons/Perfil.png' %}" class="img22">
+      </div>
+      <img src="{% static 'img/Poligonos.png' %}" class="poligono">
+    </div>
+
+  </div>
+
+  <div class="container" style="background-color: white; margin-bottom: 90px;">
+
+    <div class="text">
+      <h1> En Digimundo Technologies sabemos que es imposible sin digitalización. </h1>
+      <p> Somos una empresa 100% mexicana con enfoque al desarrollo e integración de tecnologías que se caracterizan por
+        su fácil integración, su gran adaptabilidad y su total libertad de despliegue.</p>
+    </div>
+
+
+
+    <div class="row">
+
+      <div class="col-5" id="nivel-2">
+        <div class="contenido-1">
+          <div class="caja-1">
+            <img src="{% static 'img/icons/mision.png' %}" class="caja-icono">
+            <h3 class="caja-titulo1">Nuestra misión</h3>
+            <p class="caja-texto">Fortalecer empresas e instituciones a través del
+              empoderamiento de su mundo tecnológico Digital.</p>
+          </div>
+
+          <div class="caja-2">
+            <img src="{% static 'img/icons/vision.png' %}" class="caja-icono">
+            <h3 class="caja-titulo1">Nuestra visión</h3>
+            <p class="caja-texto">Nos comprometemos a ser la solución digital y de
+              asesoramiento tecnológico de las principales instituciones y empresas mexicanas.</p>
+          </div>
+        </div>
+
+        <div class="contenido-1">
+          <div class="caja-1">
+            <img src="{% static 'img/icons/diferenciacion.png' %}" class="caja-icono">
+            <h3 class="caja-titulo1">Lo que nos diferencia</h3>
+            <p class="caja-texto">Brindamos una asesoría completa para ofrecer soluciones a
+              medida que evolucionen tus procesos.</p>
+          </div>
+
+          <div class="caja-2">
+            <img src="{% static 'img/icons/valor.png' %}" class="caja-icono">
+            <h3 class="caja-titulo1">Lo que aportamos</h3>
+            <p class="caja-texto"> No nos limitamos a la digitalización de procesos, si no que
+              reforzamos las características que hacen crecer tu empresa.</p>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="col-7" id="nivel-3">
+        <img src="{% static 'img/icons/Lateral.png' %}" class="lateral">
+      </div>
+
+
+    </div>
+
+
+
+    <section class="info-1">
+      <p> El propósito de la optimización es reducir o eliminar la pérdida de tiempo y recursos, gastos innecesarios,
+        obstáculos y errores, llegando a la meta del proceso.</p>
+    </section>
+
+    <h1 class="equipoInfo"> Nuestro Equipo </h1>
+
+    <div class="container-fluid" id="equipoGeneral">
+      <div class="row">
+        <div class="col-sm-12">
+          <div id="inam" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div class="container">
+                  <div class="row">
+
+
+                    <div class="col-sm-12 col-lg-4">
+                      <div class="card" id="equipo1">
+                        <img src="{% static 'img/colaboradores/Campero.jpg' %}" class="card-img-top"
+                          style="border-radius: 30px; border-bottom-left-radius: 0px; border-bottom-right-radius: 0;">
+                        <div class="card-body">
+                          <h4 class="card-tittle"> Alejandro Campero </h4>
+                          <p class="card-text"> Customer Leader and programmer.</p>
+                        </div>
+                      </div>
+                    </div>
+
+
+                    <div class="col-sm-12 col-lg-4">
+                      <div class="card" id="equipo2">
+                        <img src="{% static 'img/colaboradores/Dilan.jpg' %}" class="card-img-top"
+                          style="border-radius: 30px; border-bottom-left-radius: 0px; border-bottom-right-radius: 0;">
+                        <div class="card-body">
+                          <h4 class="card-tittle"> Dilan estudillo </h4>
+                          <p class="card-text"> development leader.</p>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-sm-12 col-lg-4">
+                      <div class="card" id="equipo3">
+                        <img src="{% static 'img/colaboradores/Carlos.jpeg' %}" class="card-img-top"
+                          style="border-radius: 30px; border-bottom-left-radius: 0px; border-bottom-right-radius: 0;">
+                        <div class="card-body">
+                          <h4 class="card-tittle"> Carlos Ortiz </h4>
+                          <p class="card-text"> Web programmer.</p>
+                        </div>
+                      </div>
+                    </div>
+
+
+                  </div>
+                </div>
+
+              </div>
+
+              <div class="carousel-item">
+                <div class="container">
+                  <div class="row">
+
+
+                    <div class="col-sm-12 col-lg-4">
+                      <div class="card" id="equipo4">
+                        <img src="{% static 'img/colaboradores/Josue.jpg' %}" class="card-img-top"
+                          style="border-radius: 30px; border-bottom-left-radius: 0px; border-bottom-right-radius: 0;">
+                        <div class="card-body">
+                          <h4 class="card-tittle"> Josue Rodriguez</h4>
+                          <p class="card-text"> CEO.</p>
+                        </div>
+                      </div>
+                    </div>
+
+
+                    <div class="col-sm-12 col-lg-4">
+                      <div class="card" id="equipo5">
+                        <img src="{% static 'img/colaboradores/Verito.jpg' %}" class="card-img-top"
+                          style="border-radius: 30px; border-bottom-left-radius: 0px; border-bottom-right-radius: 0;">
+                        <div class="card-body">
+                          <h4 class="card-tittle"> Verónica Ruiz </h4>
+                          <p class="card-text"> Customer Service TESCA.</p>
+                        </div>
+                      </div>
+                    </div>
+
+                  </div>
+                </div>
+
+              </div>
+
+              <div class="carousel-item">
+                <div class="container">
+                  <div class="row">
+
+
+                    <div class="col-sm-12 col-lg-4">
+                      <div class="card" id="equipo4">
+                        <img src="{% static 'img/colaboradores/Ariel.jpg' %}" class="card-img-top"
+                          style="border-radius: 30px; border-bottom-left-radius: 0px; border-bottom-right-radius: 0;">
+                        <div class="card-body">
+                          <h4 class="card-tittle"> Ariel venabides</h4>
+                          <p class="card-text"> Web Designer </p>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-sm-12 col-lg-4">
+                      <div class="card" id="equipo5">
+                        <img src="{% static 'img/colaboradores/JessicaCVe.jpg' %}" class="card-img-top"
+                          style="border-radius: 30px; border-bottom-left-radius: 0px; border-bottom-right-radius: 0;">
+                        <div class="card-body">
+                          <h4 class="card-tittle"> Jessica Ventolero</h4>
+                          <p class="card-text"> Dpto. de Inteligencia de Mercados</p>
+                        </div>
+                      </div>
+                    </div>
+
+                  </div>
+                </div>
+
+              </div>
+
+
+            </div>
+
+            <a href="#inam" class="carousel-control-prev" data-slide="prev">
+              <!-- <span class="carousel-control-prev-icon"></span> -->
+              <i class="fas fa-arrow-alt-circle-left" style="color: black; font-size: 50px;"></i>
+            </a>
+            <a href="#inam" class="carousel-control-next" data-slide="next">
+              <!-- <span class="carousel-control-next-icon"></span> -->
+              <i class="fas fa-arrow-alt-circle-right" style="color: black; font-size: 50px;"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+         <!-- carrusel 2 -->
+      <div class="container-fluid my-5">
+        <div class="row mt-5">
+            <div class="owl-carousel owl-theme">
+
+              <div class="col-sm-12 col-lg-4">
+                <div class="card" id="equipo1">
+                  <img src="{% static 'img/colaboradores/Campero.jpg' %}" class="card-img-top"
+                    style="border-radius: 30px; border-bottom-left-radius: 0px; border-bottom-right-radius: 0;">
+                  <div class="card-body">
+                    <h4 class="card-tittle"> Alejandro Campero </h4>
+                    <p class="card-text"> Customer Leader and programmer.</p>
+                  </div>
+                </div>
+              </div>
+
+
+              <div class="col-sm-12 col-lg-4">
+                <div class="card" id="equipo2">
+                  <img src="{% static 'img/colaboradores/Dilan.jpg' %}" class="card-img-top"
+                    style="border-radius: 30px; border-bottom-left-radius: 0px; border-bottom-right-radius: 0;">
+                  <div class="card-body">
+                    <h4 class="card-tittle"> Dilan estudillo </h4>
+                    <p class="card-text"> development leader.</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-sm-12 col-lg-4">
+                <div class="card" id="equipo3">
+                  <img src="{% static 'img/colaboradores/Carlos.jpeg' %}" class="card-img-top"
+                    style="border-radius: 30px; border-bottom-left-radius: 0px; border-bottom-right-radius: 0;">
+                  <div class="card-body">
+                    <h4 class="card-tittle"> Carlos Ortiz </h4>
+                    <p class="card-text"> Web programmer.</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-sm-12 col-lg-4">
+                <div class="card" id="equipo4">
+                  <img src="{% static 'img/colaboradores/Josue.jpg' %}" class="card-img-top"
+                    style="border-radius: 30px; border-bottom-left-radius: 0px; border-bottom-right-radius: 0;">
+                  <div class="card-body">
+                    <h4 class="card-tittle"> Josue Rodriguez</h4>
+                    <p class="card-text"> CEO.</p>
+                  </div>
+                </div>
+              </div>
+
+
+              <div class="col-sm-12 col-lg-4">
+                <div class="card" id="equipo5">
+                  <img src="{% static 'img/colaboradores/Verito.jpg' %}" class="card-img-top"
+                    style="border-radius: 30px; border-bottom-left-radius: 0px; border-bottom-right-radius: 0;">
+                  <div class="card-body">
+                    <h4 class="card-tittle"> Verónica Ruiz </h4>
+                    <p class="card-text"> Customer Service TESCA.</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-sm-12 col-lg-4">
+                <div class="card" id="equipo4">
+                  <img src="{% static 'img/colaboradores/Ariel.jpg' %}" class="card-img-top"
+                    style="border-radius: 30px; border-bottom-left-radius: 0px; border-bottom-right-radius: 0;">
+                  <div class="card-body">
+                    <h4 class="card-tittle"> Ariel venabides</h4>
+                    <p class="card-text"> Web Designer </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-sm-12 col-lg-4">
+                <div class="card" id="equipo5">
+                  <img src="{% static 'img/colaboradores/JessicaCVe.jpg' %}" class="card-img-top"
+                    style="border-radius: 30px; border-bottom-left-radius: 0px; border-bottom-right-radius: 0;">
+                  <div class="card-body">
+                    <h4 class="card-tittle"> Jessica Ventolero</h4>
+                    <p class="card-text"> Dpto. de Inteligencia de Mercados</p>
+                  </div>
+                </div>
+              </div>
+            
+          
+            </div>
+        </div>
+    </div>
+          
+  <!-- Fin carrusel 2 -->
+
+
+    <!-- Fin container -->
+  </div>
+
+
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+  integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+  integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+  integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+     <!-- segundo complemento -->
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+     integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+     crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+     integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+     crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+ <!-- init carousel -->
+
+ <script>
+     $('.owl-carousel').owlCarousel({
+         loop: true,
+         margin: 25,
+         nav: true,
+         responsive: {
+             0: {
+                 items: 1
+             },
+             600: {
+                 items: 2
+             },
+             1000: {
+                 items: 3
+             }
+         }
+     })
+ </script>
+
+
+</html>
+{% endblock %}

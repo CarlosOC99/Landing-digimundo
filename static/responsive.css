@@ -1,0 +1,663 @@
+
+@media only screen and (max-width:991px){
+  /* responsive cabecera */
+header{
+  padding: 20px;
+  width: 100%;
+}
+  
+header label{
+  display: initial;
+}
+  
+header .navbar{ 
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  background: rgb(0, 0, 0);
+  border-top: 1px solid rgba(0,0,0,.1);
+  display: none;
+}
+  
+header .navbar ul li{
+  width: 100%;
+}
+  
+header .navbar ul li ul{
+  position: relative;
+  width: 100%;
+}
+  
+header .navbar ul li ul li{
+  background: #eee;
+}
+  
+header .navbar ul li ul li ul{
+  width: 100px;
+  left: 0;
+}
+  
+#menu-bar:checked ~ .navbar{
+  display: initial;
+}
+  
+  /* fin menu */
+  /* cabecera pegajosa */
+.zona1{
+  width: 100%;
+}
+.logo{
+  height: 80%;
+  width: 30%;
+}
+  
+.mapa{
+  width: 300px;
+  height: 300px;
+  margin-top: 10px;
+  margin-right: 140px;
+}
+  
+      /* iconos saltantes */
+.img11 {
+    max-width: 160px;
+    max-height: 160px;
+    margin: -60px;
+    margin-top: -25px;
+}
+  
+.img22 {
+    max-width: 160px;
+    max-height: 160px;
+    margin: -60px;
+    margin-top: 220px;
+}
+  
+.img33 {
+    max-width: 160px;
+    max-height: 160px;
+    margin-left: 190px;
+    margin-top: 2px;
+}
+  
+.img44 {
+    max-width: 160px;
+    max-height: 160px;
+    margin-left: 190px;
+    margin-top: 220px;
+}
+  /* poligono giratorio */
+  
+.poligono{
+    width: 350px; 
+    height: 350px; 
+    margin-top: -20px;
+    margin-left: -35px;
+}
+  
+  /* textos cabecera */
+  
+.contenidos2{ 
+    width: 50%;
+    height: 350px;
+    margin-left: 20px;
+}
+  
+.cont12{
+    font-size: 40px;
+}
+  
+.zona1 a{
+    font-size: 15px;
+}
+  
+.cont123{
+    font-size: 25px;
+}
+  
+.cont124{
+    font-size: 35px;
+}
+  
+.cont125{
+    margin-top: 50px;
+    font-size: 30px;
+}
+
+  /* Responsive en index */
+  
+.cabeza{
+    width: 100%;
+    height: 300px;
+}
+  
+.imgmod {
+    width: 150px;
+    height: 150px;
+}
+.dorso p {
+    font-size: 0.50em;
+}
+.contenidoFlip{
+    height: 320px;
+    width: 100%;
+}
+.flip-containerA {
+    width: 200px;
+    height: 270px;
+    margin-right: 10px;
+}  
+.card2 img{
+    width: 100px;
+    height: 100px;
+}
+.card2{
+    width: 50%;
+}
+  
+.gen1, .gen2{
+    margin-left: 10px;
+}
+  
+  /* Lista con Circulo */  
+  
+.circulado{
+    height: 800px;
+}
+  
+.contenedorC{
+      height: 55%;
+      width: 55%;
+      float:right;
+      margin-top: 150px;
+      
+}
+  
+.circuloimg{
+    height: 100%;
+    width: 100%;
+}
+  
+.img{
+    height: 100px;
+    width: 100px;
+    margin-bottom: 20px;
+}
+  
+  /* Fin lista con circulo */
+  
+.marquee-horizontal{
+    height: 120px;
+}
+  
+.icon-container-alt{
+    width: 250px;
+    height: 200px;
+    margin: 6px;
+}
+  
+.icon{
+    width: 250px;
+    height: 90px;
+}
+  
+.card2{
+    justify-content: center;
+    width: 30%;
+    height: 400px;
+    margin: 5px;
+}
+  
+  /* Responsive de servicios */
+    
+.col-md-4 img{
+        width: 100%;
+        height: 200px;
+}
+  
+  /* Nosotros */
+  
+#nivel-2{
+    height: 605px;
+    width: 55%;    
+}
+#nivel-3{
+    width: 45%;
+}
+.contenido-1 {
+    width: 105%;
+   height: 300px;
+}
+.caja-1{
+    width: 330px;
+    height: 240px;
+}
+    
+.caja-2{
+    width: 330px;
+    height: 240px;
+}
+  
+.caja-icono{
+    width: 60px;
+    height: 60px;
+    margin-top: 7px;
+    margin-left: 10px;
+}
+  
+.caja-titulo1{
+    color: white;
+    font-size: 25px;
+    margin-left: 10px;
+}
+  
+.caja-texto{
+    color: white;
+    font-size: 12px;
+    margin-left: 8px;
+}
+  
+.lateral{
+    margin-top: 90px;
+    height: 380px;
+    width: 100%;
+}
+  
+#equipoGeneral{
+    display: none;
+}
+  
+.carrusel-responsive{
+    height: 550px;
+    display: initial;
+}
+  
+#equipo1{
+    width: 300px; 
+    margin-left: 20px;
+}
+  
+#equipo2{
+    width: 300px; 
+    margin-left: 20px;
+}
+  
+#equipo3{
+    width: 300px;
+    margin-left: 20px;
+}
+  
+#equipo4{
+    width: 300px; 
+    margin-left: 20px;
+}
+  
+#equipo5{
+    width: 300px;
+    margin-left: 20px;
+}
+  
+  /* contactanos */
+  
+  .titt{
+    font-size: 28px;
+  }
+  
+  /* fin contactanos */
+  
+  .footer{
+    width: 100%;
+    height: 200px;
+  }
+  
+  footer img{
+    width: 200px;
+    height: 60px;
+  }
+      
+      
+}
+
+@media screen and (max-width: 479px) {
+  
+  /* Responsive cabecera */
+  .zona1{
+    width: 100%;
+    height: 680px;     
+  }
+  
+  /* textos */
+  
+  .contenidos2{
+    width: 90%;
+    height: 240px;
+    margin-left: 18px;
+    margin-bottom: 50px;
+    z-index: 20;
+  }
+  
+  /* mapa girando */
+  
+  .mapa{
+    width: 250px;
+    height: 250px;
+    margin-top: 10px;
+    margin-right: 110px;
+  }
+  
+  /* iconos saltantes */
+  
+  .img11 {
+    max-width: 120px;
+    max-height: 120px;
+    margin: -50px;
+    margin-top: 10px;
+  }
+  
+  .img22 {
+    max-width: 120px;
+    max-height: 120px;
+    margin: -40px;
+    margin-top: 160px;
+  }
+  
+  .img33 {
+    max-width: 120px;
+    max-height: 120px;
+    margin-left: 170px;
+    margin-top: 2px;
+  }
+  
+  .img44 {
+    max-width: 120px;
+    max-height: 120px;
+    margin-left: 180px;
+    margin-top: 160px;
+  }
+  
+  /* prisma giratorio */
+  .poligono{
+    width: 300px; 
+    height: 300px; 
+    margin-top: -20px;
+    margin-left: -25px;
+  }
+  
+  /* textos de cabeceras */
+  .cont12{
+    font-size: 30px;
+  }
+  
+  .zona1 a{
+    font-size: 15px;
+  }
+  
+  .cont123{
+    font-size: 25px;
+  }
+  
+  .cont124{
+    font-size: 35px;
+  }
+  
+  .cont125{
+    margin-top: 50px;
+    font-size: 30px;
+  }
+  
+  .marquee-horizontal{
+    height: 120px;
+  }
+  
+  .icon-container-alt{
+    width: 200px;
+    height: 200px;
+    margin: 6px;
+  }
+  
+  .icon{
+    width: 200px;
+    height: 90px;
+  }
+  
+  .footer{
+    width: 100%;
+  }
+  
+  footer img{
+    width: 180px;
+    height: 60px;
+    margin-top: 15px;
+    margin-left: 120px;
+  }
+  
+  /* Responsive index */
+  
+  .cabeza{
+    width: 100%;
+    height: 200px;
+  }
+  
+  .cabe{
+    padding-top: 6%;
+    margin-left: 15px;
+    font-size: 25px;
+   }
+   .cabeza p{
+    margin-top: 20px;
+    padding-left: 5%;
+    font-size: 15px;
+      } 
+  
+  /* Img circulo */
+  .circulado{
+    width: 100%;
+    height: 750px;
+    }
+  
+  .contenedorC{
+      display: none;
+  }
+  
+  .elementor, .elementor th,.elementor td {
+    margin-top: 10px;
+    margin-bottom: 0px;
+    margin-left: 35px;
+    height: 30%;
+    width: 80%;
+  } 
+  
+  .img{
+    height: 100px;
+    width: 100px;
+  }
+  
+  /* fin img circulo */
+  
+  .contenidoFlip{
+    display: inherit;
+    height: 1120px;
+    width: 100%;
+    padding-left: 12%;
+  }
+  
+  .flip-containerA{
+    margin-top: 20px;
+    width: 300px;
+    height: 340px;
+  }
+  
+  .containerCards{
+    display: initial;
+    width: 1500px;
+  }
+  .imgmod {
+    width: 200px;
+    height: 200px;
+  }
+  .dorso p {
+    font-size: 0.65em;
+  }
+  
+  .card2 img{
+    width: 100px;
+    height: 100px;
+  }
+  .card2{
+    justify-content: center;
+    width: 70%;
+    height: 300px;
+    margin: 20px;
+    margin-left: 60px;
+  }
+  
+  
+  
+  /* Responsive de servicios */
+.text h1, .text p{
+    text-align: center;
+  }
+  
+#redondot{
+    border-radius: 20px;
+}
+    
+.col-md-4 img{
+        width: 100%;
+        height: 250px;
+        border-radius: 20px;
+    }
+  
+  /* Nosotros */
+  
+  #nivel-2{
+    height: 520px;
+    width: 100%;    
+  }
+  #nivel-3{
+    width: 100%;
+    padding-left: 55px;
+  }
+  .contenido-1 {
+    width: 100%;
+   height: 250px;
+  }
+  .caja-1{
+    width: 330px;
+    height: 220px;
+  }
+    
+  .caja-2{
+    width: 330px;
+    height: 220px;
+  }
+  
+  .caja-icono{
+    width: 60px;
+    height: 60px;
+    margin-top: 7px;
+    margin-left: 5px;
+  }
+  
+  .caja-titulo1{
+    color: white;
+    font-size: 20px;
+    margin-left: 2px;
+  }
+  
+  .caja-texto{
+    color: white;
+    font-size: 12px;
+    margin-left: 10px;
+  }
+  
+  .lateral{
+    margin-top: 1px;
+    height: 300px;
+    width: 300px;
+  }
+  
+  #equipo1{
+    width: 300px; 
+    margin-left: 40px;
+  }
+  
+  #equipo2{
+    width: 300px; 
+    margin-left: 40px;
+  }
+  
+  #equipo3{
+    width: 300px;
+    margin-left: 40px;
+  }
+  
+  #equipo4{
+    width: 300px; 
+    margin-left: 40px;
+  }
+  
+  #equipo5{
+    width: 300px;
+    margin-left: 40px;
+  }
+  
+  /* Responsive ventana de contactanos */
+  .form-register{
+    width: 90%;
+    height: 860px;
+    border-radius: 9px;
+  }
+  
+  .info{
+    width: 100%;
+    height: 160px;
+    text-align: center;
+    padding-left: 15px;
+    padding-right: 15px;
+  
+  }
+  
+  .titt{
+    font-size: 25px;
+  }
+  .elementos{
+    float: none;
+    width: 100%;
+    height: 800px;
+  }
+  
+  .elementosForm{
+    width: 100%;
+    display: inline;
+  }
+  .elementosForm p{
+    padding: 5px;
+  }
+  .etiquetaForm{
+    margin-left: 30px;
+  }
+  .controllers{
+    width: 95%;
+    height: 45px;
+    margin-left: 10px;
+  }
+  .elementos h4{
+    padding: 5px;
+    margin-left: 30px;
+  }
+  
+  .elementos textarea{
+    width: 93%;
+    height: 12%;
+    margin-left: 10px;
+  }
+  
+  .buttons{
+    margin-left: 30px;
+    height: 6%;
+    width: 80%;
+  }
+  
+  }
